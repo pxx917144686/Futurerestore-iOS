@@ -1,4 +1,4 @@
-### futurerestore-iOS @ macOS @ pxx917144686
+### Futurerestore-iOS   @ pxx917144686
 
 ---
 
@@ -24,21 +24,27 @@ FutureRestore 是一个经过修改的 idevicerestore 包装器，允许手动�
    ```bash
    brew install curl
 
-3. **更新 PATH**：
+---
+
+### **更新 PATH**：
+
+#### 具体如下：
+
+1. **终端执行命令**：
    ```bash
    echo 'export PATH="/usr/local/opt/curl/bin:$PATH"' >> ~/.zshrc
 
-4. **设置编译器标志（使编译器能够找到 curl）**：
+2. **设置编译器标志（使编译器能够找到 curl）**：
    ```bash
    export LDFLAGS="-L/usr/local/opt/curl/lib"
    export CPPFLAGS="-I/usr/local/opt/curl/include"
 
-5. **设置 pkg-config 路径**：
+3. **设置 pkg-config 路径**：
    ```bash
    export PKG_CONFIG_PATH="/usr/local/opt/curl/lib/pkgconfig"
 
 
-6. **使修改生效**：
+4. **使修改生效**：
    ```bash
    source ~/.zshrc
 
