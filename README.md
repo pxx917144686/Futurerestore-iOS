@@ -4,9 +4,9 @@
 
 ## 什么是 FutureRestore？
 
-FutureRestore 是一个经过修改的 idevicerestore 包装器，允许手动指定要恢复的 SEP 和基带。这使得可以将未签名的固件恢复到设备上，前提是您有 APTicket（SHSH Blobs）的备份，并且能够重新创建 APTicket 的所有特定条件，例如 ECID、APNonce 和 Board ID。
+FutureRestore 是一个经过修改的 idevicerestore 包装器，允许手动指定要恢复的 SEP 和基带。这使得可以将未签名的固件恢复到设备上，前提有 APTicket（SHSH2 文件）的备份；
 
-## 加入群
+## 群
 
 [FutureRestore for Discord](https://discord.com/invite/96wCSnwYVX)
 
