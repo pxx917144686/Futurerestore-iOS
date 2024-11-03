@@ -82,11 +82,11 @@ FutureRestore 是允许手动指定要恢复的 SEP 和基带。这使得可以�
 
 #### 第二步：下载 futurerestore-iOS
 
-1. **克隆仓库**：
+1. **克隆仓库——>本地**：
    ```bash
    git clone https://github.com/pxx917144686/Futurerestore-iOS.git
    
-2. **进入目录**：
+2. **CD——>进入目录**：
    ```bash
    cd Futurerestore-iOS
 
