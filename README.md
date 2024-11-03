@@ -2,17 +2,15 @@
 
 第一步：
 
-1、安装 libcurl4-gnutls-dev 依赖
+安装 libcurl 依赖
 
 
-Homebrew 去安装： 
+安装 Homebrew ： 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+使用 Homebrew 去安装  libcurl 依赖
 
-
-2、安装  libcurl 依赖
-
-Homebrew 去安装：brew install curl
+brew install curl
 
 
 
