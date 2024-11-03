@@ -20,10 +20,11 @@ futurerestore-iOS @ macOS @ pxx917144686
 2.使用 Homebrew 安装 curl 库：brew install curl
 
 
-第二步：下载 futurerestore-iOS 仓库文件
+第二步：下载 futurerestore-iOS
 
 git clone https://github.com/thisiskeanyvy/futurerestore-downloader.git
 cd futurerestore-iOS
 
-执行 make 命令编译：
+执行 make命令编译：
+
 make
