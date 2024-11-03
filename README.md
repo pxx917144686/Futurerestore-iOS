@@ -20,11 +20,32 @@ futurerestore-iOS @ macOS @ pxx917144686
 2.使用 Homebrew 安装 curl 库：brew install curl
 
 
+使用命令——>更新 PATH
+echo 'export PATH="/usr/local/opt/curl/bin:$PATH"' >> ~/.zshrc
+
+设置编译器标志——>编译器找到 curl
+export LDFLAGS="-L/usr/local/opt/curl/lib"
+export CPPFLAGS="-I/usr/local/opt/curl/include"
+
+设置 pkg-config 路径
+export PKG_CONFIG_PATH="/usr/local/opt/curl/lib/pkgconfig"
+
+使zshrc修改生效
+source ~/.zshrc
+
+
+
+
+
+
+
+
 第二步：下载 futurerestore-iOS
 
 git clone https://github.com/thisiskeanyvy/futurerestore-downloader.git
 cd futurerestore-iOS
 
-执行 make命令编译：
 
-make
+
+使用 make 命令——>编译 futurerestore.c，生成名为 futurerestore 的可执行文件
+执行 make
