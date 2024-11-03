@@ -8,7 +8,7 @@
 安装 Homebrew ： 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-使用 Homebrew 去安装  libcurl 依赖
+安装 libcurl 依赖： 使用 Homebrew 安装 curl 库：
 
 brew install curl
 
