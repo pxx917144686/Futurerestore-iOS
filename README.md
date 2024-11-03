@@ -55,13 +55,10 @@ FutureRestore 是一个经过修改的 idevicerestore 包装器，允许手动�
 1. **克隆仓库**：
    ```bash
    git clone https://github.com/thisiskeanyvy/futurerestore-downloader.git
-
-
+   
 2. **进入目录**：
    ```bash
    cd futurerestore
-
-
 
 **使用 make 命令**
 **编译 futurerestore.c，生成名为 futurerestore 的可执行文件**：
