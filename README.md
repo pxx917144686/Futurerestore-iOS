@@ -24,4 +24,4 @@ FutureRestore 是一个经过修改的 idevicerestore 包装器，允许手动�
 
 # 加入群
 
-Discord 上的 [FutureRestore 支持服务器](https://discord.com/invite/96wCSnwYVX)。
+[FutureRestore for Discord](https://discord.com/invite/96wCSnwYVX)。
