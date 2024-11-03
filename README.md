@@ -16,11 +16,12 @@ futurerestore-iOS @ macOS @ pxx917144686
 第一步：安装 libcurl 依赖
 
 1.安装 Homebrew：/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 2.使用 Homebrew 安装 curl 库：brew install curl
 
 
 第二步：下载 futurerestore-iOS 仓库文件
-下载或克隆仓库并进入目录：
+
 git clone https://github.com/thisiskeanyvy/futurerestore-downloader.git
 cd futurerestore-iOS
 
