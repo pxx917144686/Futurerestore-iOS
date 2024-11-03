@@ -91,7 +91,7 @@ FutureRestore 是允许手动指定要恢复的 SEP 和基带。这使得可以�
    cd Futurerestore-iOS
 
 **使用 make 命令**
-**编译 futurerestore.c，生成名为 futurerestore 的可执行文件**：
+**编译 futurerestore.c，生成名为 futurerestore 的可执行文件——>futurerestore-iOS文件夹里面**：
    ```bash
 make
 
