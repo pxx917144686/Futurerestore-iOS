@@ -73,7 +73,6 @@ FutureRestore 是允许手动指定要恢复的 SEP 和基带。这使得可以�
    ```bash
    export PKG_CONFIG_PATH="/usr/local/opt/curl/lib/pkgconfig"
 
-
 4. **使修改生效**：
    ```bash
    source ~/.zshrc
