@@ -2,6 +2,8 @@
 
 : [pxx917144686](https://github.com/pxx917144686)
 
+: [FutureRestore](https://ios.cfw.guide/futurerestore)
+
 ---
 
 ## 什么是 FutureRestore？
@@ -93,4 +95,3 @@ FutureRestore 是允许手动指定要恢复的 SEP 和基带。这使得可以�
 **编译 futurerestore.c，生成名为 futurerestore 的可执行文件——>futurerestore-iOS文件夹里面**：
    ```bash
 make
-
